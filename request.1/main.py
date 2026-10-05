@@ -4,3 +4,6 @@ r = requests.get("https://www.monuyadav.com")
 print(r.text)
 with  open("index.html",  'w') as f:
     f.write(r.text)
+
+
+print("hello singada")
